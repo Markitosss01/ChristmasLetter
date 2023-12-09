@@ -1,0 +1,122 @@
+#header1{
+    background-color: #3678c9;
+    border-style: solid;
+    position: relative;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(59, 35, 29);
+    font-family: cursive;
+    background-image: url('ChristmasBackDrop.png');
+}
+#header2
+{color: rgb(35, 20, 7)}
+
+#banner {
+    border-color: rgb(1, 13, 24);
+    border-radius: 10px;
+    background-color: #0F8A5F;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    border-style: solid;
+    font-family: 'Mountains of Christmas';font-size: 22px;
+}
+
+/*background-color:#1e5a06;*/
+body{
+    
+    background-image: url('ChristmasBackDrop.png');
+    font-family: fantasy;
+
+}
+
+
+
+#goals{
+    font-size: larger;
+
+}
+
+#form{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(54, 193, 27);
+}
+
+#form1{
+    background-color: rgb(80, 183, 77);
+    color:white;
+    border-radius:50px;
+    border-style: double;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#result{
+    background-color: rgb(255, 0, 0);
+    font-family: 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    border-radius: 35px;
+    text-align: center;
+    word-spacing: 15px;
+    border-spacing: 50px;
+    border-width: 50px;
+    font-weight: bolder;
+   
+   
+
+}
+#mainForm{
+    background-color: rgb(77, 148, 234);
+    border-radius: 20px;
+    font-size: 25px;
+    align-items: center;
+    font-weight: 100;
+    color:rgb(6, 20, 10);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#scroll{
+    font-style: initial;
+    font-size: 45px;
+    border-color: aliceblue;
+    background-color: rgb(5, 0, 9);
+    border-radius: fit-content;
+    border-width: fit-content;
+    
+}
+#fillOut{
+    font-size: 45px;
+    font-weight: 900;
+}
+#initials{
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 600;
+}
+#click{
+    font-size: larger;
+    font-weight: 400;
+    font-style: italic;
+    color: black;
+}
+
+
+
+  
+  html, body {    
+      height: 100%;
+      width: 100%;
+  }
+  
+  body {
+      margin: 0;
+  }
+  #click{
+    color: #061610;
+  }
+  #initials{
+    color: rgb(10, 1, 1);
+  }

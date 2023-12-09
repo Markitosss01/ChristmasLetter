@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Talent Show </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Mountains of Christmas' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/christmas-classica" rel="stylesheet">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/christmas-classica');
+        </style>
+  </head>
+
+  <div class="sky">
+  <body>
+    
+    <script src="Script.js"></script>
+    <div id="header1">
+        <H1> <span style = "background-color: rgb(249, 41, 41);"> Christmas Letter from Markitos</H1>
+        <h3 id="header2"><span style = "background-color: rgb(255, 255, 255);"> Hope you enjoy : )</h3>
+
+        
+    </div>
+    <div id="banner">
+        <h2 > Try This Out! C'mon, You Know You Want To. Don't Be Scurred </h2>
+        <h3>Fill out every section tho  </h3>
+    </div>
+  
+
+        
+           
+        
+       
+        
+      
+             
+    <div id="form">
+        
+            <div id="mainForm">
+                <p id="fillOut">Fill out your name and age !</p>
+                <p id="initials">Capitilize Your First Initials :)</p>
+                <br>
+                <input type="text" placeholder="First Name" id="firstName" name="firstName" />
+                <input type="text" placeholder="Last Name" id="lastName" name="lastName" />
+                <input name="age" placeholder="age" id="age" min="10" max="100" type="number"/>
+               
+            </div>
+            <br>
+            <div id="form1"> 
+                <h3> What's your current schooling?</h3>
+                <input type="radio"  id="middleschool" name="school" value="Middle School"/>
+                <label for="School">Middle School</label>
+                <br>
+                <input type="radio"  id="highschool" name="school" value="High School"/>
+                <label for="School">High School</label>
+                    <br>
+                <input type="radio"  id="college" name="school" value="College"/>
+                <label for="School">College</label>
+                <br>
+                <input type="radio"  id="life" name="school" value="Life"/>
+                <label for="School">Im an Adult bruh</label>
+                <br>
+                <input type="radio"  id="both" name="school" value="Both work and college"/>
+                <label for="School">Working & in college</label>
+
+                <h3>What  do you want to accomplish in school or in life?<br>
+                   <div >Examples: Career goals, Church goals, Soccer goals</div> 
+                </h3>
+                
+                <input type="text" id="goals">
+
+                <h4>Which church do you attend?</h4>
+                <select id="church">
+                    <option value="Adelanto">Adelanto</option>
+                    <option value="Lancaster">Lancaster</option>
+                    <option value="Palmdale">Palmdale</option>
+                    <option value="Lake LA">Lake LA</option>
+                    <option value="Little Rock">Little Rock</option>
+                    <option value="Victor Valley" selected="selected">Victor Valley</option>
+                    <option value="2nd Victorville" >2nd Victorville</option>
+                    <option value="Hesperia">Hesperia</option>
+                    <option value="2nd Hesperia">2nd Hesperia</option>
+                    <option value="Ridgecrest">Ridgecrest</option>
+                    <option value="Cal City">California City</option>
+                    <option value="Barstow">Barstow</option>
+                    <option value="AOA">AOA</option>
+                    <option value="Sector1">Sector 1</option>
+                    <option value="Sector2">Sector 2</option>
+                    <option value="Sector3">Sector 3</option>
+                    <option value="Sector4">Sector 4</option>
+                </select>
+                <p id ="click">CLICK ON 'Get Your Blessing' BELOW!</p>
+
+
+
+                <div id="results">
+                    <p id="resultsText"></p>
+                </div>
+
+            </div>
+           
+               
+            
+       
+
+        
+        <button onclick="getValues()">Get Your Blessing!</button>
+        <p id="scroll">!Scroll Down!</p>
+
+    </div>
+        <i id="result"></i>
+    </div>
+
+  </body>
+
+</html>
